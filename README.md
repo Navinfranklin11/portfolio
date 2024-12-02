@@ -10,32 +10,10 @@ successful data transformation projects and facilitating data-driven decision-ma
 ### Technical Skills: SQL | Azure ML | Data Factory | Python | Data Bricks | AWS Services | Power BI
 ![skills](/assets/img/skills.png)
 
-
 ## Work Experience
-**Data Science Engineer @ OEC India Services Private Limited  (_December 2022 – Present_)**
-- Reduced data processing time by 24% through algorithm optimization in AWS Lambda and Azure Data Factory,enhancing data availability for Business Intelligence and Analytics teams.
-- Designed and implemented 20+ data pipelines using Azure Data factory, Synapse, AWS Glue, and Kafka, improving 
-data flow efficiency by 30% and handling 1+ terabytes of data daily.
-- Developed a machine learning model using Azure Cognitive Computer Vision to identify vehicle damage extent and 
-impact location, reducing time and costs for insurance companies through rapid, automated assessments.
-- Developed and automated data cleansing procedures, improving data quality and reducing data errors by 25% for 
-accurate insights in data science and business use cases.
-- Migrated 4+ terabytes of data to cloud platforms (AWS, Azure), resulting in a 40% reduction in infrastructure costs 
-and enabling greater scalability.
-- Improved query response time by 35% through advanced tuning and indexing, supporting faster data retrieval and 
-more timely decision-making.
-- Automated end-to-end ETL workflows, reducing manual data handling by 50% and freeing up team resources for 
-high-impact tasks. 
-
-**Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2022 – November 2022_)**
-- Led client workshops and managed product presentations, scope definitions, and requirements gathering, driving a 
-15% improvement in customer retention and enhancing overall customer satisfaction.
-- Worked directly with stakeholders to ensure full visibility and transparency in project progress, maximizing value 
-delivered and contributing to increased client trust and long-term partnerships. 
-- Delivered strategic technical guidance and expert advice on data transformation initiatives, enabling more effective 
-decision-making and accelerating the adoption of new technologies. 
-- Enhanced delivery quality by collaborating closely with on-site teams, resulting in a 20% reduction in project delivery 
-time and improved operational efficiency. 
+- Data Science Engineer @ OEC India Services Private Limited  (_December 2022 – Present_)(Chennai)								       		
+- Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2022 – November 2022_)(Krakow) 			        		
+- Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2021 – August 2022 _)(Chennai)
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
