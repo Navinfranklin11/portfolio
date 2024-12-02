@@ -1,6 +1,71 @@
 # Data Science Engineer
 
 ## Summary
+Experienced **Data Science Engineer** with 4+ years of expertise in developing and optimizing cloud-native data pipelines and machine learning models across **AWS** and **Azure**. Skilled in integrating and processing large-scale structured and unstructured data to enhance business intelligence and analytics capabilities, resulting in a remarkable **25% improvement in data processing efficiency**. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading successful data transformation projects and facilitating data-driven decision-making. 
+
+---
+
+### Technical Skills:
+- **Programming Languages**: SQL, Python
+- **Cloud Platforms**: AWS Services, Azure
+- **Tools & Frameworks**: Azure ML, Data Factory, Power BI, Data Bricks
+- **Specializations**: Machine Learning, Data Pipelines, Business Intelligence
+
+![skills](/assets/img/skills.png)
+
+---
+
+## Work Experience
+
+### Data Science Engineer | OEC India Services Private Limited 
+*December 2022 – Present | Chennai, India*
+
+- Lead the development and optimization of cloud-native data pipelines on AWS and Azure.
+- Developed machine learning models to predict business outcomes, increasing decision-making efficiency.
+- Enhanced data processing efficiency by 25% through automation and optimization techniques.
+
+### Associate Data Science Engineer | OEC India Services Private Limited  
+*September 2022 – November 2022 | Krakow, Poland*
+
+- Collaborated on cross-functional teams to deliver end-to-end machine learning solutions.
+- Contributed to data analysis and model development using Azure ML and Python.
+- Supported the deployment of data-driven systems for clients, improving business intelligence.
+
+### Associate Data Science Engineer | OEC India Services Private Limited  
+*September 2021 – August 2022 | Chennai, India*
+
+- Assisted in building and maintaining scalable data pipelines for business analytics.
+- Worked closely with the data science team to develop and test machine learning models.
+- Helped improve data integration strategies for large-scale datasets.
+
+### Associate Machine Learning Engineer | Cricketronics Pvt Ltd  
+*January 2021 – September 2021 | Chennai, India*
+
+- Developed machine learning models for real-time analytics and automated reporting.
+- Participated in the integration of predictive models into client-facing applications.
+- Assisted in cleaning and processing unstructured data for improved model performance.
+
+---
+
+## Education
+
+- **B.Tech in Computer Science** | XYZ University | Graduation Year: 2020
+- **Certifications**:
+    - Microsoft Certified: Azure AI Engineer Associate
+    - AWS Certified Solutions Architect – Associate
+
+---
+
+## Contact Information
+
+- Email: [your-email@example.com](mailto:your-email@example.com)
+- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile)
+- GitHub: [github.com/your-username](https://github.com/your-username)
+
+
+# Data Science Engineer
+
+## Summary
 Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines and 
 machine learning models across AWS and Azure. Skilled in integrating and processing large-scale structured and unstructured 
 data to enhance business intelligence and analytics capabilities, resulting in a remarkable 25% improvement in data processing 
