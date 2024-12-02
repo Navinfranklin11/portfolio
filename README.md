@@ -14,8 +14,9 @@ successful data transformation projects and facilitating data-driven decision-ma
 - Data Science Engineer @ OEC India Services Private Limited  (_December 2022 – Present_) (Chennai ,India)								       		
 - Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2022 – November 2022_) (Krakow ,Poland) 			        		
 - Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2021 – Auguest 2021_) (Chennai ,India)
+- Associate Machine leaning Engineer @ Cricketronics Pvt Ltd (_Jan 2021 – Sept 2021_) (Chennai ,India)
 
-## Projects
+## Featured Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
