@@ -11,9 +11,9 @@ successful data transformation projects and facilitating data-driven decision-ma
 ![skills](/assets/img/skills.png)
 
 ## Work Experience
-- Data Science Engineer @ OEC India Services Private Limited  (_December 2022 – Present_)(Chennai)								       		
-- Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2022 – November 2022_)(Krakow) 			        		
-- Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2021 – August 2022 _)(Chennai)
+- Data Science Engineer @ OEC India Services Private Limited  (_December 2022 – Present_) (Chennai ,India)								       		
+- Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2022 – November 2022_) (Krakow ,Poland) 			        		
+- Associate Data Science Engineer @ OEC India Services Private Limited (_Sept 2021 – August 2022 _) (Chennai ,India)
 
 ## Projects
 ### Data-Driven EEG Band Discovery with Decision Trees
