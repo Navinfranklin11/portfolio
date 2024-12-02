@@ -20,13 +20,13 @@ successful data transformation projects and facilitating data-driven decision-ma
 ### AWS and Azure Pipeline Architecture
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-• Designed and implemented the data architecture for both Azure and AWS pipelines, applying abstract 
+- Designed and implemented the data architecture for both Azure and AWS pipelines, applying abstract 
 concepts for scalability, resilience, and maintainability. 
-• Managed data ingestion using AWS Glue to process shop status data from S3, with integrated retries, 
+- Managed data ingestion using AWS Glue to process shop status data from S3, with integrated retries, 
 notifications, and monitoring through CloudWatch. 
-• Designed a Data Lake using S3 for low-cost, efficient storage, enabling extensive data availability for 
+- Designed a Data Lake using S3 for low-cost, efficient storage, enabling extensive data availability for 
 downstream applications. 
-• Built the DWH on AWS RDS with PostgreSQL in a private subnet with private link connections, 
+- Built the DWH on AWS RDS with PostgreSQL in a private subnet with private link connections, 
 improving data security and accessibility for analytics. 
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
