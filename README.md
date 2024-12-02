@@ -7,7 +7,7 @@ data to enhance business intelligence and analytics capabilities, resulting in a
 efficiency. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading 
 successful data transformation projects and facilitating data-driven decision-making. 
 
-## Technical Skills: SQL | Azure ML | Data Factory | Python | Data Bricks | AWS Services | Power BI
+### Technical Skills: SQL | Azure ML | Data Factory | Python | Data Bricks | AWS Services | Power BI
 ![skills](/assets/img/skills.png)
 
 ## Education
