@@ -31,12 +31,19 @@ improving data security and accessibility for analytics.
 
 ![AWS](/assets/img/AWS.png)
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
+### Azure Data Integration & Reporting Pipeline
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+- Implemented a Kafka-to-Cosmos DB data pipeline using Python and Azure Data Factory, enabling real
+time data ingestion and transformation for BI reporting. 
+- Integrated Cosmos DB with a data warehouse in Azure Data Factory, optimizing long-term storage and 
+advanced analytics for Power BI dashboards. 
+- Automated data transformations, improving BI data accessibility by 40%, and ensured reliability with 
+robust error handling and monitoring. 
+- Delivered high-performance, real-time insights via Power BI, enhancing decision-making for business 
+stakeholders. 
 
-![Bike Study](/assets/img/bike_study.jpeg)
+![Azure](/assets/img/Azure.png)
 
 ## Talks & Lectures
 - Causality: The new science of an old question - GSP Seminar, Fall 2021
