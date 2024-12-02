@@ -1,4 +1,4 @@
-# Data Scientist
+# Data Science Engineer
 
 #### Technical Skills: SQL | Azure ML | Data Factory | Python | Data Bricks | AWS Services | Power BI
 ![skills](/assets/img/skills.png)
