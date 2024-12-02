@@ -29,7 +29,7 @@ downstream applications.
 - Built the DWH on AWS RDS with PostgreSQL in a private subnet with private link connections, 
 improving data security and accessibility for analytics. 
 
-![Azure](/assets/img/Azure.png)
+![AWS](/assets/img/AWS.png)
 
 ### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
