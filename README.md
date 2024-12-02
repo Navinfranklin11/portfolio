@@ -18,7 +18,6 @@ successful data transformation projects and facilitating data-driven decision-ma
 
 ## Featured Projects
 ### AWS and Azure Pipeline Architecture
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 - Designed and implemented the data architecture for both Azure and AWS pipelines, applying abstract 
 concepts for scalability, resilience, and maintainability. 
@@ -32,7 +31,6 @@ improving data security and accessibility for analytics.
 ![AWS](/assets/img/AWS.png)
 
 ### Azure Data Integration & Reporting Pipeline
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
 - Implemented a Kafka-to-Cosmos DB data pipeline using Python and Azure Data Factory, enabling real
 time data ingestion and transformation for BI reporting. 
@@ -46,7 +44,6 @@ stakeholders.
 ![ETL](/assets/img/ETL.png)
 
 ### Vehicle Damage Detection using Azure Cognitive Services
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
 - Developed a machine learning model using Azure Cognitive Computer Vision to assess vehicle damage 
 extent and location, optimizing insurance claims with rapid, automated evaluations. 
@@ -58,7 +55,6 @@ to make quicker, informed decisions.
 ![ML](/assets/img/ML.png)
 
 ### Cross-Platform Data Pipeline for Reporting & Analytics
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
 - Developed an integrated data pipeline using Azure and AWS to ingest, transform, and store data from 
 multiple sources, including Azure Blob Storage, APIs, and CSV uploads. 
@@ -72,7 +68,6 @@ real-time analytics and Power BI connectivity across platforms for accurate, tim
 ![multi](/assets/img/multi.png)
 
 ### Player Performance Prediction and Injury Risk Assessment
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
 - Developed machine learning models to predict player performance metrics and assess injury risks 
 using historical game and biometric data. 
@@ -86,7 +81,6 @@ accuracy over baseline models.
 ![player](/assets/img/player.png)
 
 ### Game Outcome Prediction and Team Performance Insights
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
 - Built predictive models to forecast game outcomes and analyze team performance dynamics using 
 advanced statistical techniques. 
