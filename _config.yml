@@ -1,5 +1,19 @@
 title: Navin Franklin
 logo: /assets/img/headshot_circle.png
-#description: text below image
+description: "Experienced Data Science Engineer with 4+ years of expertise in cloud-native data pipelines and machine learning models."
 show_downloads: true
 theme: jekyll-theme-minimal
+author:
+  name: "Navin Franklin"
+  email: "your.email@example.com"
+
+# Social links
+social_links:
+  linkedin: "https://www.linkedin.com/in/yourprofile"
+  github: "https://github.com/yourgithub"
+  twitter: "https://twitter.com/yourtwitter"
+
+# Resume
+resume_download:
+  url: "/assets/files/navin_franklin_resume.pdf"
+  label: "Download Resume"
