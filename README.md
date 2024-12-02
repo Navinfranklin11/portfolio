@@ -17,10 +17,17 @@ successful data transformation projects and facilitating data-driven decision-ma
 - Associate Machine leaning Engineer @ Cricketronics Pvt Ltd (_Jan 2021 – Sept 2021_) (Chennai ,India)
 
 ## Featured Projects
-### Data-Driven EEG Band Discovery with Decision Trees
+### AWS and Azure Pipeline Architecture
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+• Designed and implemented the data architecture for both Azure and AWS pipelines, applying abstract 
+concepts for scalability, resilience, and maintainability. 
+• Managed data ingestion using AWS Glue to process shop status data from S3, with integrated retries, 
+notifications, and monitoring through CloudWatch. 
+• Designed a Data Lake using S3 for low-cost, efficient storage, enabling extensive data availability for 
+downstream applications. 
+• Built the DWH on AWS RDS with PostgreSQL in a private subnet with private link connections, 
+improving data security and accessibility for analytics. 
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
