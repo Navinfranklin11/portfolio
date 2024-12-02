@@ -43,7 +43,19 @@ robust error handling and monitoring.
 - Delivered high-performance, real-time insights via Power BI, enhancing decision-making for business 
 stakeholders. 
 
-![Azure](/assets/img/Azure.png)
+![kafka](/assets/img/kafka.png)
+
+### Vehicle Damage Detection using Azure Cognitive Services
+[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+
+- Developed a machine learning model using Azure Cognitive Computer Vision to assess vehicle damage 
+extent and location, optimizing insurance claims with rapid, automated evaluations. 
+- Reduced assessment time by 40% for insurance companies, lowering costs and increasing claim 
+processing accuracy and efficiency. 
+- Automated damage detection, enabling accurate, data-driven damage analysis and allowing insurers 
+to make quicker, informed decisions.  
+
+![ML](/assets/img/ML.png)
 
 ## Talks & Lectures
 - Causality: The new science of an old question - GSP Seminar, Fall 2021
