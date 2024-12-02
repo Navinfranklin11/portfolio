@@ -1,7 +1,7 @@
 # Data Scientist
 
 #### Technical Skills: SQL | Azure ML | Data Factory | Python | Data Bricks | AWS Services | Power BI
-![Untitled_design__1_-removebg-preview (1)](/assets/img/Untitled_design__1_-removebg-preview (1).png)
+![skills](/assets/img/skills.png)
 
 ## Education
 - Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
