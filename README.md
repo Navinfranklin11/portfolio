@@ -22,7 +22,7 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 
 ## Work Experience
 
-- **Data Science Engineer**  
+- **Data Engineer**  
   *OEC India Services Private Limited*  
   *December 2022 – Present*  
   *Chennai, India*
@@ -142,5 +142,5 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 ---
 
 ## Contact
-- **Email:** [your.email@example.com](mailto:navinfranklin11@gmail.com)
+- **Email:** [navinfranklin11@gmail.com](mailto:navinfranklin11@gmail.com)
 - **LinkedIn:** [navin franklin](https://www.linkedin.com/in/navin-franklin/)
