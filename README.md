@@ -49,7 +49,7 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 ### 1. **AWS and Azure Pipeline Architecture**
 <div style="text-align: justify;">
  
-Designed and implemented data architecture for both Azure and AWS pipelines focusing on scalability, resilience, and maintainability.
+- Designed and implemented data architecture for both Azure and AWS pipelines focusing on scalability, resilience, and maintainability.
 Managed data ingestion using **AWS Glue** to process shop status data from **S3**, with integrated retries, notifications, and monitoring via **CloudWatch**.
 Designed a **Data Lake** using **S3** for low-cost, efficient storage, enabling extensive data availability for downstream applications.
 Built a **Data Warehouse** on **AWS RDS** (PostgreSQL) in a private subnet with private link connections, improving data security and accessibility for analytics.
