@@ -142,5 +142,5 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 ---
 
 ## Contact
-- **Email:** [navinfranklin11@gmail.com](mailto:navinfranklin11@gmail.com)
+- **Email:** [navinfranklin11@gmail.com](navinfranklin11@gmail.com)
 - **LinkedIn:** [navin franklin](https://www.linkedin.com/in/navin-franklin/)
