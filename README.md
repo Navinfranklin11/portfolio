@@ -33,24 +33,24 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 
 ## 📈 Key Responsibilities, Achievements
 
-## **Data Engineer** at OEC India Services (Dec 2022 – Present)
+### **Data Engineer** at OEC India Services (Dec 2022 – Present)
 ![Data Engineer](https://your-image-path.com) <!-- Optional image for the section -->
 - Designed and optimized **cloud-based data pipelines** on **AWS** and **Azure**, focusing on scalability and resilience.
 - Led multiple data transformation projects, resulting in a **20% reduction** in processing time and enhancing system performance.
 - Collaborated with cross-functional teams to build and maintain cloud-native architectures, improving system uptime by **15%**.
 - Mentored junior engineers, fostering a culture of knowledge-sharing and high-performance teamwork, which led to an **increase in team productivity by 25%**.
   
-## **Associate Data Science Engineer** at OEC India Services (Sept 2022 – Nov 2022)
+### **Associate Data Science Engineer** at OEC India Services (Sept 2022 – Nov 2022)
 - Developed and deployed **machine learning models** to improve predictive analytics for business insights, driving **25%** improvement in decision-making accuracy.
 - Designed and integrated data pipelines using **Azure Data Factory** and **Cosmos DB**, enabling **real-time data ingestion** and **BI reporting**.
 - Enhanced data warehousing solutions, optimizing data retrieval for **Power BI** dashboards and improving data accessibility by **30%**.
 - Worked closely with stakeholders to optimize business intelligence data pipelines, improving performance and reliability.
   
-## **Associate Data Science Engineer** at OEC India Services (Sept 2021 – Aug 2022)
+### **Associate Data Science Engineer** at OEC India Services (Sept 2021 – Aug 2022)
 - Automated data cleaning and transformation tasks using **AWS Glue**, **Lambda**, and **Step Functions**, streamlining workflows and reducing manual processing by **30%**.
 - Implemented interactive data visualizations using **Power BI**, which improved reporting speed and reduced time to insights by **40%**.
 
-## **Associate Machine Learning Engineer** at Cricketronics Pvt Ltd (Jan 2021 – Sept 2021)
+### **Associate Machine Learning Engineer** at Cricketronics Pvt Ltd (Jan 2021 – Sept 2021)
 - Developed **machine learning models** for player performance prediction and injury risk assessment, utilizing historical game and biometric data.
 - Implemented feature engineering techniques to enhance model accuracy, resulting in a **25% improvement** in injury prediction accuracy.
 - Deployed production-ready models that enabled **proactive workload management**, reducing injury rates by **18%**.
