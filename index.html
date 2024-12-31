@@ -5,8 +5,314 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navin Franklin - Data Engineer Portfolio</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet"> <!-- External font -->
-    <link rel="stylesheet" href="styles.css"> <!-- External stylesheets for better separation of concerns -->
+    <style>
+        :root {
+            --primary-color: #2196f3;
+            --secondary-color: #1976d2;
+            --accent-color: #64b5f6;
+            --text-color: #37474f;
+            --light-bg: #ffffff;
+            --light-gray: #f8f9fa;
+            --border-color: #e0e0e0;
+            --success-color: #4caf50;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 1rem;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .nav-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .nav-brand {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+            background-color: var(--light-gray);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 80px auto 0;
+            padding: 2rem;
+        }
+
+        .hero-section {
+            position: relative;
+            background: linear-gradient(135deg, #f5f7fa, #e4e7eb);
+            padding: 8rem 2rem 4rem;
+            margin-bottom: 3rem;
+            border-radius: 12px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('/api/placeholder/1400/400') center/cover;
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-title {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            color: var(--text-color);
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .section {
+            background: var(--light-bg);
+            margin-bottom: 3rem;
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        .section h2 {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        .skill-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        .skill-category h3 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .experience-item {
+            margin-bottom: 2.5rem;
+            padding: 2rem;
+            background: var(--light-gray);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            transition: transform 0.3s ease;
+        }
+
+        .experience-item:hover {
+            transform: translateX(10px);
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: var(--light-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .project-content {
+            padding: 2rem;
+        }
+
+        .project-content h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--light-gray);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: var(--light-gray);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        .contact-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        .contact-item i {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .contact-item a {
+            color: var(--text-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: var(--primary-color);
+        }
+
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .education-item {
+            padding: 2rem;
+            background: var(--light-gray);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .education-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+            
+            .section {
+                padding: 1.5rem;
+            }
+            
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -29,142 +335,73 @@
                 <h1 class="hero-title">Navin Franklin</h1>
                 <h2 class="hero-subtitle">Data Engineer</h2>
                 <p style="max-width: 800px; margin: 2rem auto;">
-                    Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines and machine learning models across AWS and Azure. Skilled in integrating and processing large-scale structured and unstructured data to enhance business intelligence and analytics capabilities, resulting in a remarkable 25% improvement in data processing efficiency. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading successful data transformation projects and facilitating data-driven decision-making.
+                    Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines 
+                    and machine learning models across AWS and Azure. Achieved a remarkable 25% improvement in data processing efficiency.
                 </p>
             </div>
         </section>
 
-<section id="skills" class="section">
-    <h2>Technical Skills</h2>
-    <div class="skills-grid">
-        <div class="skill-category">
-            <h3>Languages</h3>
-            <p>SQL, Python, Pyspark</p>
-        </div>
-        <div class="skill-category">
-            <h3>Cloud Platforms</h3>
-            <p>AWS, Azure</p>
-        </div>
-        <div class="skill-category">
-            <h3>Machine Learning</h3>
-            <p>Azure ML, Data Bricks</p>
-        </div>
-        <div class="skill-category">
-            <h3>Data Engineering</h3>
-            <p>Data Factory, AWS Glue, Lambda, Step Functions</p>
-        </div>
-        <div class="skill-category">
-            <h3>Databases & Warehousing</h3>
-            <p>AWS RDS, Azure SQL Database, PostgreSQL, Cosmos DB</p>
-        </div>
-        <div class="skill-category">
-            <h3>Visualization</h3>
-            <p>Power BI</p>
-        </div>
-        <div class="skill-category">
-            <h3>Big Data Frameworks</h3>
-            <p>Apache Spark</p>
-        </div>
-        <div class="skill-category">
-            <h3>Version Control</h3>
-            <p>Git, GitHub, GitLab</p>
-        </div>
-        <div class="skill-category">
-            <h3>Data Lakes</h3>
-            <p>AWS S3, Azure Data Lake Storage</p>
-        </div>
-        <div class="skill-category">
-            <h3>Data Security & Governance</h3>
-            <p>AWS IAM, Azure Security Center</p>
-        </div>
-    </div>
-</section>
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <p>SQL, Python</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud Platforms</h3>
+                    <p>AWS, Azure</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <p>Azure ML, Data Bricks</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Engineering</h3>
+                    <p>Data Factory, AWS Glue, Power BI</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Warehousing</h3>
+                    <p>AWS RDS, Azure SQL Database, PostgreSQL, Cosmos DB</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Others</h3>
+                    <p>Kafka, Lambda, Step Functions</p>
+                </div>
+            </div>
+        </section>
 
-
-<section id="projects" class="section">
-    <h2>Featured Projects</h2>
-    <div class="project-grid">
-        <div class="project-card">
-            <img src="/assets/img/AWS.png" alt="AWS Pipeline" class="project-image">
-            <div class="project-content">
-                <h3>AWS and Azure Pipeline Architecture</h3>
-                <p>Designed and implemented scalable, resilient data architecture for both AWS and Azure pipelines, ensuring efficient data processing at scale.</p>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">40%</div>
-                        <div>Data Accessibility Improvement</div>
+        <section id="projects" class="section">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="/assets/img/AWS.png" alt="AWS Pipeline" class="project-image">
+                    <div class="project-content">
+                        <h3>AWS and Azure Pipeline Architecture</h3>
+                        <p>Designed and implemented scalable, resilient data architecture for both AWS and Azure pipelines, ensuring efficient data processing at scale.</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">40%</div>
+                                <div>Data Accessibility Improvement</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/img/ETL.png" alt="ETL Pipeline" class="project-image">
+                    <div class="project-content">
+                        <h3>Azure Data Integration & Reporting Pipeline</h3>
+                        <p>Built a real-time Kafka-to-Cosmos DB data pipeline using Python and Azure Data Factory, enhancing BI reporting efficiency.</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">40%</div>
+                                <div>Faster BI Reporting</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="project-card">
-            <img src="/assets/img/ETL.png" alt="ETL Pipeline" class="project-image">
-            <div class="project-content">
-                <h3>Azure Data Integration & Reporting Pipeline</h3>
-                <p>Built a real-time Kafka-to-Cosmos DB data pipeline using Python and Azure Data Factory, enhancing BI reporting efficiency.</p>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">40%</div>
-                        <div>Faster BI Reporting</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="/assets/img/ML.png" alt="Vehicle Damage Detection" class="project-image">
-            <div class="project-content">
-                <h3>Vehicle Damage Detection using Azure Cognitive Services</h3>
-                <p>Developed a machine learning model using Azure Cognitive Vision to automatically detect vehicle damage, optimizing insurance claim processing.</p>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">40%</div>
-                        <div>Claim Assessment Time Reduction</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="/assets/img/multi.png" alt="Cross-Platform Data Pipeline" class="project-image">
-            <div class="project-content">
-                <h3>Cross-Platform Data Pipeline for Reporting & Analytics</h3>
-                <p>Designed an integrated AWS and Azure data pipeline to process multiple data sources, reducing data prep time and enabling faster data processing.</p>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">30%</div>
-                        <div>Data Prep Time Reduction</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="/assets/img/player.png" alt="Player Performance Prediction" class="project-image">
-            <div class="project-content">
-                <h3>Player Performance Prediction and Injury Risk Assessment</h3>
-                <p>Developed predictive models to assess player performance and injury risk, improving prediction accuracy and reducing injury rates.</p>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">25%</div>
-                        <div>Prediction Accuracy Improvement</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="/assets/img/team.png" alt="Game Outcome Prediction" class="project-image">
-            <div class="project-content">
-                <h3>Game Outcome Prediction and Team Performance Insights</h3>
-                <p>Built predictive models to forecast game outcomes and analyze team performance, helping improve team strategy and decision-making.</p>
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <div class="stat-number">85%</div>
-                        <div>Game Prediction Accuracy</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+        </section>
 
         <section id="education" class="section">
             <h2>Education</h2>
