@@ -1,13 +1,13 @@
 # Data Engineer
 
-## Summary
+## 📝 Summary
 <div style="text-align: justify;">
-Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines and machine learning models across AWS and Azure. Skilled in integrating and processing large-scale structured and unstructured data to enhance business intelligence and analytics capabilities, resulting in a remarkable 25% improvement in data processing efficiency. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading successful data transformation projects and facilitating data-driven decision-making.
+Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines and machine learning models across **AWS** and **Azure**. Skilled in integrating and processing large-scale structured and unstructured data to enhance business intelligence and analytics capabilities, resulting in a remarkable **25% improvement** in data processing efficiency. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading successful data transformation projects and facilitating data-driven decision-making.
 </div>
 
 ---
 
-### Technical Skills
+## 🛠️ Technical Skills
 
 - **Languages:** SQL, Python
 - **Cloud Platforms:** AWS, Azure
@@ -20,27 +20,14 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 
 ---
 
-## Work Experience
+## 💼 Work Experience
 
-- **Data Engineer**  
-  *OEC India Services Private Limited*  
-  *December 2022 – Present*  
-  *Chennai, India*
-
-- **Associate Data Science Engineer**  
-  *OEC India Services Private Limited*  
-  *Sept 2022 – November 2022*  
-  *Krakow, Poland*
-
-- **Associate Data Science Engineer**  
-  *OEC India Services Private Limited*  
-  *Sept 2021 – August 2021*  
-  *Chennai, India*
-
-- **Associate Machine Learning Engineer**  
-  *Cricketronics Pvt Ltd*  
-  *Jan 2021 – Sept 2021*  
-  *Chennai, India*
+| Role                                | Organization                         | Location         | Duration               |
+|-------------------------------------|--------------------------------------|------------------|------------------------|
+| **Data Engineer**                   | OEC India Services Private Limited   | Chennai, India   | December 2022 – Present|
+| **Associate Data Science Engineer** | OEC India Services Private Limited   | Krakow, Poland   | Sept 2022 – Nov 2022   |
+| **Associate Data Science Engineer** | OEC India Services Private Limited   | Chennai, India   | Sept 2021 – Aug 2022   |
+| **Associate Machine Learning Engineer** | Cricketronics Pvt Ltd             | Chennai, India   | Jan 2021 – Sept 2021   |
 
 ---
 
