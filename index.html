@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navin Franklin - Data Engineer</title>
+    <title>Navin Franklin - Data Engineer Portfolio</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <style>
         :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #3498db;
-            --accent-color: #e74c3c;
-            --text-color: #333;
-            --light-bg: #f8f9fa;
-            --border-color: #dee2e6;
+            --primary-color: #2196f3;
+            --secondary-color: #1976d2;
+            --accent-color: #64b5f6;
+            --text-color: #37474f;
+            --light-bg: #ffffff;
+            --light-gray: #f8f9fa;
+            --border-color: #e0e0e0;
+            --success-color: #4caf50;
         }
 
         * {
@@ -24,27 +26,35 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: var(--text-color);
-            background-color: #f5f5f5;
+            background-color: var(--light-bg);
         }
 
         .navbar {
             position: fixed;
             top: 0;
             width: 100%;
-            background-color: var(--primary-color);
+            background-color: rgba(255, 255, 255, 0.95);
             padding: 1rem;
             z-index: 1000;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
         .nav-content {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 0 2rem;
+        }
+
+        .nav-brand {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
         }
 
         .nav-links {
@@ -53,60 +63,77 @@
         }
 
         .nav-links a {
-            color: white;
+            color: var(--text-color);
             text-decoration: none;
             font-weight: 500;
-            transition: color 0.3s;
-            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
         }
 
         .nav-links a:hover {
-            color: var(--secondary-color);
+            color: var(--primary-color);
+            background-color: var(--light-gray);
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 80px auto 0;
             padding: 2rem;
         }
 
-        .profile-section {
-            display: flex;
-            gap: 3rem;
-            align-items: center;
-            margin: 2rem 0 4rem;
-            padding: 2rem;
-            background: white;
+        .hero-section {
+            position: relative;
+            background: linear-gradient(135deg, #f5f7fa, #e4e7eb);
+            padding: 8rem 2rem 4rem;
+            margin-bottom: 3rem;
             border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            overflow: hidden;
         }
 
-        .profile-image {
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid var(--secondary-color);
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('/api/placeholder/1400/400') center/cover;
+            opacity: 0.1;
+            z-index: 0;
         }
 
-        .profile-info {
-            flex: 1;
+        .hero-content {
+            position: relative;
+            z-index: 1;
         }
 
-        .section-title {
+        .hero-title {
             color: var(--primary-color);
-            font-size: 2rem;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-subtitle {
+            color: var(--text-color);
+            font-size: 1.5rem;
             margin-bottom: 2rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 3px solid var(--secondary-color);
         }
 
         .section {
-            margin-bottom: 4rem;
-            padding: 2.5rem;
-            background: white;
+            background: var(--light-bg);
+            margin-bottom: 3rem;
+            padding: 3rem;
             border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        .section h2 {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--accent-color);
         }
 
         .skills-grid {
@@ -116,94 +143,129 @@
         }
 
         .skill-category {
-            background: var(--light-bg);
-            padding: 1.5rem;
+            background: var(--light-gray);
+            padding: 2rem;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            transition: transform 0.3s;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
         }
 
         .skill-category:hover {
             transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        .skill-category h3 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
         }
 
         .experience-item {
             margin-bottom: 2.5rem;
-            padding-bottom: 2.5rem;
-            border-bottom: 1px solid var(--border-color);
+            padding: 2rem;
+            background: var(--light-gray);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            transition: transform 0.3s ease;
         }
 
-        .experience-item:last-child {
-            border-bottom: none;
-        }
-
-        .experience-header {
-            margin-bottom: 1rem;
-        }
-
-        .experience-title {
-            font-size: 1.4rem;
-            color: var(--primary-color);
-        }
-
-        .experience-company {
-            color: var(--secondary-color);
-            font-weight: 500;
-        }
-
-        .achievement-list {
-            list-style-type: none;
-            margin-top: 1rem;
-        }
-
-        .achievement-list li {
-            margin-bottom: 0.8rem;
-            padding-left: 1.5rem;
-            position: relative;
-        }
-
-        .achievement-list li::before {
-            content: "▹";
-            position: absolute;
-            left: 0;
-            color: var(--secondary-color);
+        .experience-item:hover {
+            transform: translateX(10px);
         }
 
         .project-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 2rem;
         }
 
         .project-card {
-            background: white;
+            background: var(--light-bg);
             border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
         }
 
         .project-card:hover {
             transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
         }
 
         .project-image {
             width: 100%;
-            height: 200px;
+            height: 250px;
             object-fit: cover;
+            border-bottom: 1px solid var(--border-color);
         }
 
         .project-content {
-            padding: 1.5rem;
+            padding: 2rem;
         }
 
-        .project-title {
+        .project-content h3 {
             color: var(--primary-color);
             margin-bottom: 1rem;
         }
 
-        .project-description {
-            margin-bottom: 1rem;
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--light-gray);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: var(--light-gray);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        .contact-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        .contact-item i {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .contact-item a {
+            color: var(--text-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: var(--primary-color);
         }
 
         .education-grid {
@@ -213,72 +275,41 @@
         }
 
         .education-item {
-            background: var(--light-bg);
-            padding: 1.5rem;
+            padding: 2rem;
+            background: var(--light-gray);
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
         }
 
-        .contact-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            padding: 1.5rem;
-            background: var(--light-bg);
-            border-radius: 8px;
-            transition: transform 0.3s;
-        }
-
-        .contact-item:hover {
+        .education-item:hover {
             transform: translateY(-5px);
-        }
-
-        .contact-item i {
-            font-size: 1.8rem;
-            color: var(--secondary-color);
-        }
-
-        .contact-item a {
-            color: var(--text-color);
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .contact-item a:hover {
-            color: var(--secondary-color);
-        }
-
-        .highlight {
-            color: var(--accent-color);
-            font-weight: bold;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
         }
 
         @media (max-width: 768px) {
-            .profile-section {
-                flex-direction: column;
-                text-align: center;
-            }
-
             .nav-links {
                 display: none;
             }
-
-            .project-grid {
-                grid-template-columns: 1fr;
-            }
-
+            
             .container {
                 padding: 1rem;
             }
-
+            
             .section {
                 padding: 1.5rem;
+            }
+            
+            .project-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.2rem;
             }
         }
     </style>
@@ -286,7 +317,7 @@
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <h2 style="color: white;">Navin Franklin</h2>
+            <a href="#" class="nav-brand">Navin Franklin</a>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
@@ -299,17 +330,19 @@
     </nav>
 
     <div class="container">
-        <section id="about" class="profile-section">
-            <img src="/assets/img/headshot_circle.png" alt="Navin Franklin" class="profile-image">
-            <div class="profile-info">
-                <h1 class="section-title">Navin Franklin</h1>
-                <h2 style="color: var(--secondary-color); margin-bottom: 1rem;">Data Engineer</h2>
-                <p>Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines and machine learning models across <span class="highlight">AWS</span> and <span class="highlight">Azure</span>. Skilled in integrating and processing large-scale structured and unstructured data to enhance business intelligence and analytics capabilities, resulting in a remarkable <span class="highlight">25% improvement</span> in data processing efficiency. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading successful data transformation projects and facilitating data-driven decision-making.</p>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Navin Franklin</h1>
+                <h2 class="hero-subtitle">Data Engineer</h2>
+                <p style="max-width: 800px; margin: 2rem auto;">
+                    Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines 
+                    and machine learning models across AWS and Azure. Achieved a remarkable 25% improvement in data processing efficiency.
+                </p>
             </div>
         </section>
 
         <section id="skills" class="section">
-            <h2 class="section-title">Technical Skills</h2>
+            <h2>Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
                     <h3>Languages</h3>
@@ -338,67 +371,65 @@
             </div>
         </section>
 
-        <section id="experience" class="section">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="experience-item">
-                <div class="experience-header">
-                    <h3 class="experience-title">Data Engineer</h3>
-                    <p class="experience-company">OEC India Services Private Limited | Chennai, India</p>
-                    <p>December 2022 – Present</p>
-                </div>
-                <ul class="achievement-list">
-                    <li>Designed and optimized cloud-based data pipelines on AWS and Azure, focusing on scalability and resilience.</li>
-                    <li>Led multiple data transformation projects, resulting in a 20% reduction in processing time.</li>
-                    <li>Collaborated with cross-functional teams to build and maintain cloud-native architectures, improving system uptime by 15%.</li>
-                    <li>Mentored junior engineers, fostering a culture of knowledge-sharing and high-performance teamwork, which led to an increase in team productivity by 25%.</li>
-                </ul>
-            </div>
-            <!-- Additional experience items follow the same pattern -->
-        </section>
-
         <section id="projects" class="section">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2>Featured Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
                     <img src="/assets/img/AWS.png" alt="AWS Pipeline" class="project-image">
                     <div class="project-content">
-                        <h3 class="project-title">AWS Data Pipeline</h3>
-                        <p class="project-description">Developed a robust data pipeline on AWS, facilitating the processing of over 1TB of data daily for real-time analytics and machine learning.</p>
+                        <h3>AWS and Azure Pipeline Architecture</h3>
+                        <p>Designed and implemented scalable, resilient data architecture for both AWS and Azure pipelines, ensuring efficient data processing at scale.</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">40%</div>
+                                <div>Data Accessibility Improvement</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Additional projects follow the same pattern -->
+                <div class="project-card">
+                    <img src="/assets/img/ETL.png" alt="ETL Pipeline" class="project-image">
+                    <div class="project-content">
+                        <h3>Azure Data Integration & Reporting Pipeline</h3>
+                        <p>Built a real-time Kafka-to-Cosmos DB data pipeline using Python and Azure Data Factory, enhancing BI reporting efficiency.</p>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number">40%</div>
+                                <div>Faster BI Reporting</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="education" class="section">
-            <h2 class="section-title">Education</h2>
+            <h2>Education</h2>
             <div class="education-grid">
                 <div class="education-item">
-                    <h3>Bachelor of Technology (B.Tech)</h3>
-                    <p>Computer Science Engineering</p>
-                    <p>University Name</p>
-                    <p>Year of Graduation: 2018</p>
+                    <h3>Masters in Data Science</h3>
+                    <p>Loyola College Chennai</p>
+                    <p>2019 – 2021</p>
                 </div>
-                <!-- Additional education items follow the same pattern -->
+                <div class="education-item">
+                    <h3>Bachelor of Computer Applications</h3>
+                    <p>Loyola College Chennai</p>
+                    <p>2016 – 2019</p>
+                </div>
             </div>
         </section>
 
         <section id="contact" class="section">
-            <h2 class="section-title">Contact</h2>
+            <h2>Contact</h2>
             <div class="contact-grid">
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <a href="mailto:navinfranklin92@gmail.com">navinfranklin92@gmail.com</a>
+                    <a href="mailto:navinfranklin11@gmail.com">navinfranklin11@gmail.com</a>
                 </div>
                 <div class="contact-item">
-                    <i class="fas fa-phone-alt"></i>
-                    <a href="tel:+919562438823">+91 95624 38823</a>
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/navin-franklin/" target="_blank">LinkedIn Profile</a>
                 </div>
-                <div class="contact-item">
-                    <i class="fas fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/navinfranklin92/">LinkedIn</a>
-                </div>
-                <!-- Additional contact items -->
             </div>
         </section>
     </div>
