@@ -34,7 +34,6 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 ## 📈 Key Responsibilities, Achievements
 
 ### **Data Engineer** at OEC India Services (Dec 2022 – Present)
-![Data Engineer](https://your-image-path.com) <!-- Optional image for the section -->
 - Designed and optimized **cloud-based data pipelines** on **AWS** and **Azure**, focusing on scalability and resilience.
 - Led multiple data transformation projects, resulting in a **20% reduction** in processing time and enhancing system performance.
 - Collaborated with cross-functional teams to build and maintain cloud-native architectures, improving system uptime by **15%**.
