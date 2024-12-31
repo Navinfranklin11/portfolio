@@ -44,103 +44,76 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 
 ---
 
-## Featured Projects
+## 📌 Featured Projects
 
-### 1. **AWS and Azure Pipeline Architecture**
-<div style="text-align: justify;">
- 
-- Designed and implemented data architecture for both Azure and AWS pipelines focusing on scalability, resilience, and maintainability.
-- Managed data ingestion using **AWS Glue** to process shop status data from  **S3** , with integrated retries, notifications, and monitoring via  **CloudWatch** .
-- Designed a **Data Lake** using **S3** for low-cost, efficient storage, enabling extensive data availability for downstream applications.
-- Built a **Data Warehouse** on **AWS RDS** (PostgreSQL) in a private subnet with private link connections, improving data security and accessibility for analytics.
-
-</div>
-
+### 1. **AWS and Azure Pipeline Architecture** 
 ![AWS](/assets/img/AWS.png)
+
+- Designed and implemented data architecture for both **Azure** and **AWS** pipelines, focusing on scalability, resilience, and maintainability.
+- Managed data ingestion using **AWS Glue** for processing shop status data from **S3**, with integrated retries, notifications, and monitoring via **CloudWatch**.
+- Built a **Data Lake** using **S3**, providing low-cost, efficient storage for extensive data availability.
+- Developed a **Data Warehouse** on **AWS RDS (PostgreSQL)**, improving data security with private link connections.
 
 ---
 
 ### 2. **Azure Data Integration & Reporting Pipeline**
-<div style="text-align: justify;">
- 
-- Implemented a **Kafka-to-Cosmos DB** data pipeline using **Python** and **Azure Data Factory**, enabling real-time data ingestion and transformation for BI reporting.
-- Integrated **Cosmos DB** with a data warehouse in **Azure Data Factory**, optimizing long-term storage and advanced analytics for **Power BI** dashboards.
-- Automated data transformations, improving BI data accessibility by **40%**, with robust error handling and monitoring.
-- Delivered high-performance, real-time insights via **Power BI**, enhancing decision-making for business stakeholders.
-
-</div>
-
 ![ETL](/assets/img/ETL.png)
+
+- Built a **Kafka-to-Cosmos DB** data pipeline using **Python** and **Azure Data Factory**, enabling real-time data ingestion and BI reporting.
+- Integrated **Cosmos DB** with **Azure Data Factory**, optimizing storage and enabling analytics for **Power BI**.
+- Automated data transformations, improving BI accessibility by **40%**.
+- Delivered real-time insights via **Power BI**, improving decision-making.
 
 ---
 
 ### 3. **Vehicle Damage Detection using Azure Cognitive Services**
-<div style="text-align: justify;">
- 
-- Developed a machine learning model using **Azure Cognitive Computer Vision** to assess vehicle damage extent and location, optimizing insurance claims with rapid, automated evaluations.
-- Reduced assessment time by **40%** for insurance companies, lowering costs and increasing claim processing accuracy and efficiency.
-- Automated damage detection, enabling accurate, data-driven damage analysis, allowing insurers to make quicker, informed decisions.
-
-</div>
-
 ![ML](/assets/img/ML.png)
+
+- Developed a **machine learning model** using **Azure Cognitive Vision** to assess vehicle damage for insurance claims.
+- Reduced assessment time by **40%**, improving claim processing speed and accuracy.
+- Automated damage detection, enabling quicker, data-driven decision-making.
 
 ---
 
 ### 4. **Cross-Platform Data Pipeline for Reporting & Analytics**
-<div style="text-align: justify;">
- 
-- Developed an integrated data pipeline using **Azure** and **AWS** to ingest, transform, and store data from multiple sources, including **Azure Blob Storage**, APIs, and CSV uploads.
-- Utilized **Azure Data Factory** for processing files from Blob Storage and multi-source integration, transforming data in **Cosmos DB** for BI reporting, reducing data preparation time by **30%**.
-- Built an **AWS Glue**, **Lambda**, and **Step Function**-based ETL process to handle large CSV uploads in **S3** from an application, efficiently transforming financial and training data.
-- Configured secure data warehouses on both **AWS RDS (PostgreSQL)** and **Azure SQL Database**, enabling real-time analytics and **Power BI** connectivity across platforms for accurate, timely reporting.
-
-</div>
-
 ![multi](/assets/img/multi.png)
+
+- Created an integrated pipeline using **Azure** and **AWS** to process data from multiple sources like **Blob Storage** and **CSV uploads**.
+- Reduced data prep time by **30%** using **Azure Data Factory** and multi-source integration.
+- Utilized **AWS Glue**, **Lambda**, and **Step Functions** for large-scale data transformation.
 
 ---
 
 ### 5. **Player Performance Prediction and Injury Risk Assessment**
-<div style="text-align: justify;">
- 
-- Developed machine learning models to predict player performance metrics and assess injury risks using historical game and biometric data.
-- Utilized **EDA** to identify key performance indicators, guiding feature engineering and improving model interpretability.
-- Implemented **XGBoost** and **Random Forest** models, achieving a **25% improvement** in injury prediction accuracy over baseline models.
-- Enabled coaches and medical staff to proactively manage player workloads, reducing injury rates by **18%**.
-
-</div>
-
 ![player](/assets/img/player.png)
+
+- Developed models to predict player performance and assess injury risks using game and biometric data.
+- Achieved a **25% improvement** in injury prediction accuracy using **XGBoost** and **Random Forest**.
+- Enabled proactive workload management for coaches, reducing injury rates by **18%**.
 
 ---
 
 ### 6. **Game Outcome Prediction and Team Performance Insights**
-<div style="text-align: justify;">
- 
-- Built predictive models to forecast game outcomes and analyze team performance dynamics using advanced statistical techniques.
-- Conducted clustering with **K-Means** to group teams by performance patterns and enhance game strategy analysis.
-- Designed a **Logistic Regression** model for real-time game outcome predictions with **85% accuracy**, using in-game player metrics and team stats.
-- Delivered actionable insights to coaching staff, improving team decision-making and game strategies by **30%**.
-
-</div>
-
 ![team](/assets/img/team.png)
 
----
-
-## Education
-
-- **Masters in Data Science**  
-  *Loyola College Chennai*  
-  *2019 – 2021*
-
-- **Bachelor of Computer Applications**  
-  *Loyola College Chennai*  
-  *2016 – 2019*
+- Built predictive models for game outcomes using advanced statistical techniques.
+- Achieved **85%** accuracy in predicting game outcomes with a **Logistic Regression** model.
+- Delivered actionable insights, improving team strategies and decision-making by **30%**.
 
 ---
 
-## Contact
+## 🎓 Education
+
+| Degree                                | Institution            | Year         |
+|---------------------------------------|-----------------------|--------------|
+| **Masters in Data Science**           | Loyola College Chennai | 2019 – 2021  |
+| **Bachelor of Computer Applications** | Loyola College Chennai | 2016 – 2019  |
+
+---
+
+## 📬 Contact
+
 - **Email:** [navinfranklin11@gmail.com](mailto:navinfranklin11@gmail.com)
-- **LinkedIn:** [navin franklin](https://www.linkedin.com/in/navin-franklin/)
+- **LinkedIn:** [Navin Franklin](https://www.linkedin.com/in/navin-franklin/)
+
+---
