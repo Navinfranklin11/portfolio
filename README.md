@@ -1,9 +1,7 @@
 # Data Engineer
 
-## 📝 Summary
-<div style="text-align: justify;">
-Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines and machine learning models across  **AWS** and  **Azure** . Skilled in integrating and processing large-scale structured and unstructured data to enhance business intelligence and analytics capabilities, resulting in a remarkable  **25% improvement**  in data processing efficiency. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading successful data transformation projects and facilitating data-driven decision-making.
-</div>
+📝 <strong>Summary</strong>  
+Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines and machine learning models across <strong>AWS</strong> and <strong>Azure</strong>. Skilled in integrating and processing large-scale structured and unstructured data to enhance business intelligence and analytics capabilities, resulting in a remarkable <strong>25% improvement</strong> in data processing efficiency. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading successful data transformation projects and facilitating data-driven decision-making.
 
 ---
 
