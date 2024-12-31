@@ -1,9 +1,19 @@
-# Data Engineer
+# Navin Franklin - Data Engineer Portfolio
+
+![Navin's Headshot](/assets/img/headshot_circle.png)
+
 ---
 
-📝 **Summary**  
+## 🚀 About Me
+Experienced Data Science Engineer with over 4 years of expertise in developing cloud-native data pipelines and machine learning models across **AWS** and **Azure**. I'm passionate about integrating and processing large-scale data to drive actionable insights and optimize business performance. I excel in creating scalable systems, automating data workflows, and mentoring teams to deliver impactful solutions.
 
-Experienced Data Science Engineer with 4+ years of expertise in developing and optimizing cloud-native data pipelines and machine learning models across **AWS** and **Azure**. Skilled in integrating and processing large-scale structured and unstructured data to enhance business intelligence and analytics capabilities, resulting in a remarkable **25% improvement** in data processing efficiency. Acknowledged for exceptional collaborative problem-solving skills and team mentoring abilities, consistently leading successful data transformation projects and facilitating data-driven decision-making.
+---
+
+## 📜 Summary
+- **Location:** Chennai, India
+- **Experience:** 4+ Years
+- **Specializations:** Data Engineering, Cloud Computing, Machine Learning
+- **Technologies:** AWS, Azure, SQL, Python, Kafka, Power BI, Data Factory, Glue
 
 ---
 
@@ -12,102 +22,69 @@ Experienced Data Science Engineer with 4+ years of expertise in developing and o
 - **Languages:** SQL, Python
 - **Cloud Platforms:** AWS, Azure
 - **Machine Learning:** Azure ML, Data Bricks
-- **Data Engineering:** Data Factory, AWS Glue, Power BI
-- **Databases & Warehousing:** AWS RDS, Azure SQL Database, PostgreSQL, Cosmos DB
+- **Data Engineering:** AWS Glue, Data Factory, Power BI
+- **Databases & Warehousing:** PostgreSQL, AWS RDS, Azure SQL, Cosmos DB
 - **Others:** Kafka, Lambda, Step Functions
 
-![skills](/assets/img/skills.png)
+---
+
+## 📈 Work Experience
+
+| Role | Organization | Duration | Location |
+|------|--------------|----------|----------|
+| **Data Engineer** | OEC India Services | Dec 2022 – Present | Chennai |
+| **Associate Data Science Engineer** | OEC India Services | Sept 2022 – Nov 2022 | Krakow |
+| **Associate Data Science Engineer** | OEC India Services | Sept 2021 – Aug 2022 | Chennai |
+| **Associate ML Engineer** | Cricketronics Pvt Ltd | Jan 2021 – Sept 2021 | Chennai |
 
 ---
 
-## 💼 Work Experience
+## 🏆 Key Responsibilities & Achievements
 
-| Role                                | Organization                         | Location         | Duration               |
-|-------------------------------------|--------------------------------------|------------------|------------------------|
-| **Data Engineer**                   | OEC India Services Private Limited   | Chennai, India   | December 2022 – Present|
-| **Associate Data Science Engineer** | OEC India Services Private Limited   | Krakow, Poland   | Sept 2022 – Nov 2022   |
-| **Associate Data Science Engineer** | OEC India Services Private Limited   | Chennai, India   | Sept 2021 – Aug 2022   |
-| **Associate Machine Learning Engineer** | Cricketronics Pvt Ltd             | Chennai, India   | Jan 2021 – Sept 2021   |
+### **Data Engineer | OEC India Services (Dec 2022 – Present)**
+- Optimized **cloud-based data pipelines** for scalability and performance.
+- Led data transformation projects reducing processing time by **20%**.
+- Mentored junior engineers, boosting team productivity by **25%**.
 
----
+### **Associate Data Science Engineer | OEC India Services (Sept 2022 – Nov 2022)**
+- Developed **ML models** for predictive analytics, improving decision accuracy by **25%**.
+- Integrated **Cosmos DB** and **Azure Data Factory** for efficient real-time data pipelines.
 
-## 📈 Key Responsibilities, Achievements
-
-### **Data Engineer** at OEC India Services (Dec 2022 – Present)
-- Designed and optimized **cloud-based data pipelines** on **AWS** and **Azure**, focusing on scalability and resilience.
-- Led multiple data transformation projects, resulting in a **20% reduction** in processing time and enhancing system performance.
-- Collaborated with cross-functional teams to build and maintain cloud-native architectures, improving system uptime by **15%**.
-- Mentored junior engineers, fostering a culture of knowledge-sharing and high-performance teamwork, which led to an **increase in team productivity by 25%**.
-  
-### **Associate Data Science Engineer** at OEC India Services (Sept 2022 – Nov 2022)
-- Developed and deployed **machine learning models** to improve predictive analytics for business insights, driving **25%** improvement in decision-making accuracy.
-- Designed and integrated data pipelines using **Azure Data Factory** and **Cosmos DB**, enabling **real-time data ingestion** and **BI reporting**.
-- Enhanced data warehousing solutions, optimizing data retrieval for **Power BI** dashboards and improving data accessibility by **30%**.
-- Worked closely with stakeholders to optimize business intelligence data pipelines, improving performance and reliability.
-  
-### **Associate Data Science Engineer** at OEC India Services (Sept 2021 – Aug 2022)
-- Automated data cleaning and transformation tasks using **AWS Glue**, **Lambda**, and **Step Functions**, streamlining workflows and reducing manual processing by **30%**.
-- Implemented interactive data visualizations using **Power BI**, which improved reporting speed and reduced time to insights by **40%**.
-
-### **Associate Machine Learning Engineer** at Cricketronics Pvt Ltd (Jan 2021 – Sept 2021)
-- Developed **machine learning models** for player performance prediction and injury risk assessment, utilizing historical game and biometric data.
-- Implemented feature engineering techniques to enhance model accuracy, resulting in a **25% improvement** in injury prediction accuracy.
-- Deployed production-ready models that enabled **proactive workload management**, reducing injury rates by **18%**.
+### **Associate Data Science Engineer | OEC India Services (Sept 2021 – Aug 2022)**
+- Automated data transformation with **AWS Glue** and **Lambda**, reducing manual work by **30%**.
 
 ---
 
-## **📌 Featured Projects**
+## 📌 Featured Projects
 
-### 1. **AWS and Azure Pipeline Architecture**
-![AWS](assets/img/AWS.png)
-- Designed and implemented scalable, resilient data architecture for both **AWS** and **Azure** pipelines, ensuring efficient data processing at scale.
-- Managed **data ingestion** using **AWS Glue** to process shop status data from **S3**, including retries, notifications, and comprehensive monitoring via **CloudWatch**.
-- Built a cost-effective **Data Lake** on **S3**, ensuring data availability for downstream applications and enhancing data accessibility by **40%**.
-- Developed a secure **Data Warehouse** on **AWS RDS (PostgreSQL)** with private subnet connections, improving data security and analytics capabilities.
+### **1. AWS & Azure Data Pipeline Architecture**
+- **Key Technologies:** AWS S3, Glue, PostgreSQL, Azure Data Factory
+- Built scalable and cost-effective data lakes and warehouses for real-time analytics.
 
-### 2. **Azure Data Integration & Reporting Pipeline**
-![ETL](assets/img/ETL.png)
-- Built a real-time **Kafka-to-Cosmos DB** data pipeline using **Python** and **Azure Data Factory**, enhancing BI reporting efficiency and data accessibility.
-- Integrated **Cosmos DB** with **Azure Data Factory** to enable long-term data storage and optimized analytics for **Power BI**.
-- Automated data transformations that reduced BI reporting time by **40%** and provided business stakeholders with timely insights for better decision-making.
+### **2. Vehicle Damage Detection**
+- **Key Technologies:** Azure Cognitive Services, ML
+- Automated damage detection using ML models, reducing claim processing time by **40%**.
 
-### 3. **Vehicle Damage Detection using Azure Cognitive Services**
-![ML](assets/img/ML.png)
-- Developed a **machine learning model** using **Azure Cognitive Vision** to automatically detect vehicle damage, optimizing insurance claim processing.
-- Reduced claim assessment time by **40%** and improved accuracy in damage evaluation, streamlining operations for insurers.
-- Automated the detection of damage, enabling quick, data-driven decision-making that accelerated claim processing.
-
-### 4. **Cross-Platform Data Pipeline for Reporting & Analytics**
-![multi](assets/img/multi.png)
-- Designed an integrated **AWS** and **Azure** data pipeline to process multiple data sources, such as **Azure Blob Storage**, **APIs**, and **CSV uploads**.
-- Reduced **data prep time by 30%** using **Azure Data Factory** and multi-source integration, enabling faster data processing.
-- Built scalable **ETL pipelines** using **AWS Glue**, **Lambda**, and **Step Functions** to transform large datasets efficiently.
-
-### 5. **Player Performance Prediction and Injury Risk Assessment**
-![player](assets/img/player.png)
-- Developed predictive models to assess player performance and injury risk, achieving a **25% improvement** in prediction accuracy using **XGBoost** and **Random Forest**.
-- Conducted extensive **feature engineering** and exploratory data analysis (**EDA**) to identify key factors influencing performance and injuries.
-- Enabled proactive workload management for teams, reducing injury rates by **18%** and improving player health.
-
-### 6. **Game Outcome Prediction and Team Performance Insights**
-![team](assets/img/team.png)
-- Built advanced predictive models to forecast game outcomes and analyze team performance using statistical techniques.
-- Achieved **85% accuracy** in game outcome predictions using a **Logistic Regression** model.
-- Delivered actionable insights to coaching staff, which improved strategic decision-making and team performance by **30%**.
+### **3. Cross-Platform Data Pipeline**
+- Integrated multiple data sources across **AWS** and **Azure**, streamlining ETL processes and reducing data prep time by **30%**.
 
 ---
+
 ## 🎓 Education
 
-| Degree                                | Institution            | Year         |
-|---------------------------------------|-----------------------|--------------|
-| **Masters in Data Science**           | Loyola College Chennai | 2019 – 2021  |
-| **Bachelor of Computer Applications** | Loyola College Chennai | 2016 – 2019  |
+| Degree | Institution | Year |
+|--------|-------------|------|
+| **Masters in Data Science** | Loyola College Chennai | 2019 – 2021 |
+| **BCA** | Loyola College Chennai | 2016 – 2019 |
 
 ---
 
-## 📬 Contact
+## 📬 Contact Me
 
 - **Email:** [navinfranklin11@gmail.com](mailto:navinfranklin11@gmail.com)
 - **LinkedIn:** [Navin Franklin](https://www.linkedin.com/in/navin-franklin/)
+- **GitHub:** [Navin's GitHub](https://github.com/yourgithub)
 
 ---
+
+[Download Resume](assets/files/navin_franklin_resume.pdf)
