@@ -1,76 +1,4 @@
-:root {
-    --primary-color: #2196f3;
-    --secondary-color: #1976d2;
-    --accent-color: #64b5f6;
-    --text-color: #37474f;
-    --light-bg: #ffffff;
-    --light-gray: #f8f9fa;
-    --border-color: #e0e0e0;
-    --success-color: #4caf50;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7;
-    color: var(--text-color);
-    background-color: var(--light-bg);
-    padding-top: 80px; /* Added padding to prevent navbar from overlapping content */
-}
-
-/* Navbar */
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 1rem;
-    z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.nav-content {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-}
-
-.nav-brand {
-    color: var(--primary-color);
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.nav-links {
-    display: flex;
-    gap: 2rem;
-}
-
-.nav-links a {
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-}
-
-.nav-links a:hover {
-    color: var(--primary-color);
-    background-color: var(--light-gray);
-}
-
-/* Hero Section */
+/* Ensuring the hero section's background scales properly */
 .hero-section {
     position: relative;
     background: linear-gradient(135deg, #f5f7fa, #e4e7eb);
@@ -79,8 +7,11 @@ body {
     border-radius: 12px;
     text-align: center;
     overflow: hidden;
+    background-size: cover; /* Ensures it scales well */
+    background-position: center; /* Keeps the focus on the center */
 }
 
+/* Modify the image in the hero section */
 .hero-section::before {
     content: '';
     position: absolute;
@@ -88,140 +19,67 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/api/placeholder/1400/400') center/cover;
+    background: url('/api/placeholder/1400/400') center/cover no-repeat;
     opacity: 0.1;
     z-index: 0;
 }
 
-.hero-content {
-    position: relative;
-    z-index: 1;
-}
-
-.hero-title {
-    color: var(--primary-color);
-    font-size: 2.5rem;
+/* Making project images responsive */
+.project-image {
+    width: 100%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+    border-radius: 8px;
     margin-bottom: 1rem;
 }
 
-.hero-subtitle {
-    color: var(--text-color);
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-/* Section Styles */
-.section {
-    background: var(--light-bg);
-    margin-bottom: 3rem;
-    padding: 3rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-}
-
-.section h2 {
-    color: var(--primary-color);
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid var(--accent-color);
-}
-
-/* Project Card Layout */
+/* Flexibility of project grid */
 .project-grid {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Auto-adjusts based on screen size */
 }
 
-.project-card {
-    background: var(--light-gray);
-    border-radius: 8px;
-    padding: 2rem;
-    transition: all 0.3s ease;
-    border: 1px solid var(--border-color);
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-}
-
-.project-image {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-}
-
-.project-content {
-    text-align: center;
-}
-
-.project-content h3 {
-    color: var(--primary-color);
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.project-content p {
-    color: var(--text-color);
-    font-size: 1rem;
-    margin-bottom: 2rem;
-}
-
-/* Stats Grid */
+/* Stats Grid - ensures the layout adapts on small screens */
 .stats-grid {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-around; /* Center the stats */
     gap: 1rem;
     flex-wrap: wrap;
 }
 
-.stat-item {
-    background-color: var(--light-gray);
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.stat-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-}
-
-.stat-number {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--primary-color);
-}
-
-.stat-item div {
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    color: #555;
-}
-
 /* Media Query for Mobile View */
 @media (max-width: 768px) {
+    /* Mobile-Friendly Navbar */
     .nav-links {
-        display: none;
+        display: flex; /* Allow navigation links to be visible on mobile */
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 80px; /* Adjust navbar space */
+        left: 0;
+        width: 100%;
+        background-color: var(--light-bg);
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-    
+
+    /* Reducing padding for small screens */
     .container, .section {
         padding: 1rem;
     }
     
+    /* Font size adjustments */
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.8rem; /* Reduced font size for mobile */
     }
     
     .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: 1rem; /* Adjusted for readability */
+    }
+
+    /* Adjust the project grid layout */
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* More flexibility */
     }
 }
